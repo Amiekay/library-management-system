@@ -45,6 +45,11 @@ class Library{
 
         }
 }
+peakBook(ISBN){
+    const book = this.findBook(ISBN)
+    console.log(`${book.title}, ${book.author}, ${book.ISBN}`)
+ 
+    }
 }
 
 module.exports = Library

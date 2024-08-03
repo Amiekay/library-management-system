@@ -1,3 +1,6 @@
+const Book = require('./Book')
+const Library = require('./Library')
+
 
 class User{
     constructor(name, Id){
@@ -33,6 +36,7 @@ else {
     return false
 }
    } 
+  
 }
 
 

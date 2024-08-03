@@ -30,3 +30,5 @@ library.borrowBook(1, '12345')
 // library.borrowBook(1, '123456')
 
 library.returnBook(1, '123456')
+
+library.peakBook('1234')
