@@ -33,6 +33,10 @@ else {
     return false
 }
    } 
+   readBook(book){
+    console.log(book.getBookSummary())
+ 
+    }
   
 }
 

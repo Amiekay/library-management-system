@@ -23,7 +23,10 @@ class Book{
     isborrowed(){
         return this.borrowed
     }
-   
+    getBookSummary(){
+         return `${this.title}, ${this.author},${this.ISBN}`
+
+    }
 }
 
 

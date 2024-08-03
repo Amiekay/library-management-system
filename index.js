@@ -20,6 +20,7 @@ const John = new User('John', 1)
 const Joe = new User('Joe', 2)
 const Joy = new User('Joy', 3)
 
+
 library.registerMember(John)
 library.registerMember(Joy)
 library.registerMember(Joe)
@@ -31,4 +32,5 @@ library.borrowBook(1, '12345')
 
 library.returnBook(1, '123456')
 
-library.peakBook('1234')
+// library.peakBook('1234')
+Joy.readBook(book1)
